@@ -33,6 +33,28 @@
 
 
 
+# age = 19
+
+# if age>= 18:
+#  print("Have you registered to vote yet?")
+
+
+age  = 67
+
+if age < 4:
+ price = 0 
+elif age < 18:
+ price = 25
+elif age<65:
+  price = 40
+elif age > 65:
+ price = 20
+
+print(f"Your addmision price is ${price}")  
+
+
+
+
 
 
 
