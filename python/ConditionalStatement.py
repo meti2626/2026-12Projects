@@ -39,22 +39,51 @@
 #  print("Have you registered to vote yet?")
 
 
-age  = 67
+# age  = 67
 
-if age < 4:
- price = 0 
-elif age < 18:
- price = 25
-elif age<65:
-  price = 40
-elif age > 65:
- price = 20
+# if age < 4:
+#  price = 0 
+# elif age < 18:
+#  price = 25
+# elif age<65:
+#   price = 40
+# elif age > 65:
+#  price = 20
 
-print(f"Your addmision price is ${price}")  
-
-
+# print(f"Your addmision price is ${price}")  
 
 
+# requested_toppings = ['mushrooms', 'extra cheese']
+
+
+# if 'mushrooms' in requested_toppings:
+#     print("Adding mushrooms.")
+# if 'pepperoni' in requested_toppings:
+#    print("Adding pepperoni.")
+# if 'extra cheese' in requested_toppings:
+#   print("Adding extra cheese.")
+
+
+# print("\nFinished making your pizza")
 
 
 
+# alien_color = 'red'
+
+# if alien_color == 'green':
+#   print("yu earned 5 point")
+
+# else:
+#   print("you earned 10 points")  
+
+
+fruits = ['banana' , 'avocado' ,'apple']
+
+
+if 'banana'  in  fruits:
+  print("really like bananas!")
+if 'avocado' in fruits:
+    print("really like avocado!")
+
+if 'strawberrry'  in  fruits:
+  print("really like bananas!")    
