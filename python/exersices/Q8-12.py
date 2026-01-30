@@ -15,14 +15,14 @@
 # user_info = user_profile('john', 'doe', location='new york', field='engineering')
 # print(user_info)
 
+# def make_car(col , feuture , **car_info):
+#     car_info['color'] = col
+#     car_info['feuture'] = feuture
+
+#     return car_info
+
+# car = make_car('subaru', 'outback', color='blue' tow_packae=True)
+
+# print(car)
 
 
-def make_car(col , feuture , **car_info):
-    car_info['color'] = col
-    car_info['feuture'] = feuture
-
-    return car_info
-
-car = make_car('subaru', 'outback', color='blue', tow_packae=True)
-
-print(car)
