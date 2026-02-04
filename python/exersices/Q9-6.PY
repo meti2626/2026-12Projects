@@ -76,15 +76,23 @@ Icecreamstand = IceCreamStand("chickflea" , "chicken", "chocolate" , "vanilla" ,
 
 #Icecreamstand.showFlavors()
 
+class Privileges:
+    def __init__(self, privileges=None):
+        if privileges is None:
+            privileges = []
+        self.privileges = privileges
 
+    def show_privileges(self):
+        print("Privileges:")
+        for privilege in self.privileges:
+            print(f"- {privilege}")
 
 class Admin(User):
-     def __init__(self, FN, LN):
-          super().__init__(FN, LN)
-          self.privilage = ["can add post", "can delete post", "can ban user"]
+    def __init__(self, FN, LN):
+        super().__init__(FN, LN)
+        self.privileges = Privileges()
 
-     def  show_privileges(self):
-         print(self.privilage)
-Admin1 =  Admin("keith" ,"alehandro" )         
-
-Admin1.show_privileges()
+# Create an instance of Admin and use the method to show its privileges
+admin1 = Admin("Keith", "Alehandro")
+admin1.privileges.privileges = ["can add post", "can delete post", "can ban user"]
+admin1.privileges.show_privileges()
