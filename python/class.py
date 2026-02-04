@@ -93,10 +93,7 @@ class ElectricCar(Car):
       print(f"This car has a {self.battery_size}-KWH battery")
 
 
-my_tesla = ElectricCar('tesla' , 'model' , 2019)
-print(my_tesla.get_descriptive_name())
-my_tesla.update_odometer(34)
-my_tesla.describe_battery()
+
 
 
 
